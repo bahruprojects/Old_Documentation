@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Tabel</title>
+</head>
+<body>
+    <h1>Membuat Tabel</h1>
+    <h4>Tabel Standar</h4>
+    <table border = "1">
+        <!-- tr, baris -->
+        <!-- td, data -->
+        <!-- th, header -->
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        
+    </table>
+    <h4>Tabel Dengan Header</h4>
+    <table border ="1">
+        <tr>
+            <th>Senin</th>
+            <td>10.00</td>
+            <td>12.00</td>
+            <td>14.00</td>
+        </tr>
+        <tr>
+            <th>Selasa</th>
+            <td>10.00</td>
+            <td>12.00</td>
+            <td>14.00</td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="1"> 
+        <th>Senin</th>
+        <th>Selasa</th>
+        <tr>
+            <td>10.00</td>
+            <td>10.00</td>
+        </tr>
+
+    </table>
+    <br>
+
+    <h4>
+        Gabungan
+    </h4>
+
+    
+
+    <table border = "1">
+        <th>Hari</th>
+        <th>Senin</th>
+        <tr>
+            <th>10.00</th>
+            <td>Berangkat Sekolah</td>
+        </tr>
+        <tr>
+            <th>12.00</th>
+            <td>Makan Siang</td>
+        </tr>
+    </table>
+
+    <h4>Alokasi Kolom</h4>
+    <table border = "1">
+        <th></th>
+        <th>Senin</th>
+        <th>Selasa</th>
+        <tr>
+            <th>10.00</th>
+            <td>Berangkat Sekolah</td>
+            <td>Berangkat Olahraga</td>
+        </tr>
+        <tr>
+            <th rowspan="2">12.00</th>
+            <td colspan="2">Makan Siang</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Shalat Dzuhur
+                
+            </td>
+        </tr>
+    </table>
+
+    
+</body>
+</html>
+
+<!-- note :
+In HTML, the elements <th> and <td> are used to create table cells. 
+<th> is used to create the header cells, while <td> is used to create the data cells. 
+The difference between these two allows user agents to render the cells differently, 
+such as using a heavier or larger font for header cells. 
+The <tr> HTML element defines a row of cells in a table. -->
