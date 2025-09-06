@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    font-size: 30px;
+    background-color: green;
+}
+
+.container{
+    background-color: aquamarine;
+    width: 450px;
+    height: 400px;
+    border : 2px solid red;
+}
+
+.content {
+    width: 200px;
+    height: 40px;
+
+    border : 20px solid blue;
+    padding : 10px;
+    margin: 20px;
+}
+

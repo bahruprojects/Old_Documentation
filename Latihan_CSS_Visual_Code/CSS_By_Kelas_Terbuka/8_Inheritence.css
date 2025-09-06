@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+    color:blue;
+    padding: 10px;
+}
+
+.intro {
+    border: 1px solid #654;
+    background-color: #efefef;
+    padding:inherit;
+}
+
+

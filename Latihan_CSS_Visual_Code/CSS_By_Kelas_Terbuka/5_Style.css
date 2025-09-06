@@ -1,0 +1,57 @@
+/* Universal Selector */
+
+* {
+    font-family: Arial;
+
+}
+
+/* Type Selector */
+h1 {
+    color:chocolate;
+}
+
+h2{
+    color: darkblue;
+}
+
+/* Class Selector */
+
+li.sarapan{
+    color:darkgoldenrod;
+}
+
+/* ID Selector */
+#makan_senin
+{
+    color: green;
+}
+
+/* Child Selector */
+p>b{
+    color: darkslategrey;
+}
+
+li>b{
+    color: aquamarine;
+}
+
+/* Decendant Selector */
+p b{
+    color:darkorange;
+}
+
+/* Adjacent Sibling Selector */
+p+h2 {
+    color: deeppink;
+}
+
+/* General Sibling Selector */
+h2~p{
+    font-family: 'Times New Roman';
+}
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+/* Selector Universal */
+*{
+    font-family: Arial;
+}
+
+/* Aturan Terakhir */
+i {
+    color:green;
+}
+
+i {
+    color: red; /* Yang diambil ini */
+}
+
+/* Specific */
+
+b{
+    color: pink; /* Level 1 */
+}
+
+p b {
+    color: brown !important; /* Level 3 */
+}
+
+p b { /* Ngambil b Dalam p */
+    color :blue /* Level 2*/
+}
+
+p b {
+    font-size: 150%;
+}
+
+
+/* Studi Kasus */
+
+p{
+    font-size: 100%;
+}
+
+ 
+p#Pendahuluan {
+    font-size: 75%; /* Lebih Specific */ 
+}
